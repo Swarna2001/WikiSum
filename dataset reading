@@ -1,0 +1,11 @@
+import csv
+flag = 5
+with open('wikihowAll.csv', newline='', encoding='utf-8') as f:
+  reader = csv.reader(f)
+  for row in reader:
+    print(row[0])
+    print(row[1])
+    print(row[2])
+    
+    
+    https://ucsb.app.box.com/s/ap23l8gafpezf4tq3wapr6u8241zz358 - link to download csv file : very damn big file ---WILLL CONSUME YOUR INTERNET
